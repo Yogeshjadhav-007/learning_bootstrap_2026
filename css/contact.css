@@ -1,0 +1,11 @@
+.nav-link{
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+.logo{
+    border-radius: 7px;
+    
+}

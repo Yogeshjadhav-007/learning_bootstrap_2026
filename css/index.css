@@ -1,0 +1,36 @@
+.card:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+    border: 5px solid white;
+    color: blue;
+}
+.nav-link{
+    border-radius: 10px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+.logo{
+    border-radius: 7px;
+}
+.f_logo{
+    color: white;
+    text-decoration: none;
+}
+.f_logo:hover{
+    color: rgb(252, 187, 47);
+    text-decoration: none;
+}
+.q_links{
+    color: white;
+    
+}
+.q_links:hover{
+    color: rgb(252, 187, 47);
+}
+.Copyright{
+    color: white;
+    text-align: center;
+}
+
