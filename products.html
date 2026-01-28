@@ -10,7 +10,7 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/products.css" />
   </head>
   <body>
     <!-- header start -->
@@ -18,9 +18,15 @@
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-      <img src="img/yj_logo.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top logo">
-      YJ Mobiles
-    </a>
+            <img
+              src="img/yj_logo.png"
+              alt="Logo"
+              width="40"
+              height="34"
+              class="d-inline-block align-text-top logo"
+            />
+            YJ Mobiles
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -35,16 +41,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="about.html">About Us</a>
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="products.html">Products</a>
+                <a class="nav-link" href="products.html">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="services.html">Services</a>
@@ -57,11 +65,15 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                Gallery
+                  Gallery
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="photo.html">Photo Gallery</a></li>
-                  <li><a class="dropdown-item" href="video.html">video Gallery</a></li>
+                  <li>
+                    <a class="dropdown-item" href="photo.html">Photo Gallery</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="video.html">video Gallery</a>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -69,8 +81,127 @@
         </div>
       </nav>
     </header>
-        <!-- header end -->
-        <h1>products page</h1>
+    <!-- header end -->
+    <!-- main section start -->
+    <main>
+      <!-- products section start -->
+      <section class="mt-4 bg-dark">
+        <div class="container pb-4">
+          <div class="row">
+            <h2 class="text-white p-3">Our Products</h2>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/apple-490485_640.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Samsung</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#Samsung"
+                  >
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/hands-1851218_640.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Apple</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/iphone-410324_640.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Vivo</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img
+                  src="img/iphone-410311_640.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Realme</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- products section end -->
+    </main>
+    <!-- main end -->
+    <!-- samsung modal start -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="Samsung"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Samsung A17 5g</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">The Samsung Galaxy A17 and Samsung Galaxy A17 5G are Android -powered smartphones developed and marketed by Samsung in 2025. Announced on August 6, 2025 for the 5G</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- samsung modal end -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
