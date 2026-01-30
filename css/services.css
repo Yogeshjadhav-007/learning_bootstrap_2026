@@ -1,11 +1,69 @@
-.nav-link{
-    border-radius: 10px;
-}
 .nav-link:hover{
-    background-color: white;
-    color: black;
+    font-weight: 500;
+    transform: scale(1.2);
 }
+
 .logo{
     border-radius: 7px;
     
 }
+.f_logo{
+    color: white;
+    text-decoration: none;
+}
+.f_logo:hover{
+    color: rgb(252, 187, 47);
+    text-decoration: none;
+}
+.q_links{
+    color: white;
+    
+}
+.q_links:hover{
+    color: rgb(252, 187, 47);
+}
+.Copyright{
+    color: white;
+    text-align: center;
+}
+.t_head{
+    text-align: center;
+    margin-top: 10px;
+}
+.i_size{
+    width: 600px;
+    height: 250px;
+}
+.social{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.bi-youtube{
+    color: red;
+}
+.bi-facebook{
+    color: blue;
+}
+.bi-github{
+    color: black;
+}
+.insta{
+    color: rgb(87, 2, 87);
+}
+/* p{
+    padding: 10px;
+} */
+a{
+    text-decoration: none;
+}
+h4:hover{
+    transform: scale(1.1);
+    transition: ;
+    text-shadow: 2px 2px 3px grey;
+}
+header {
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+

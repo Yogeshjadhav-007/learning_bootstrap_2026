@@ -1,24 +1,13 @@
-.nav-link{
-    border-radius: 10px;
-}
 .nav-link:hover{
-    background-color: white;
-    color: black;
-}
-.logo{
-    border-radius: 7px;
-    
+    font-weight: 500;
+    transform: scale(1.2);
 }
 .social{
-    font-size: 50px;
+    font-size: 30px;
     margin-right: 10px;
 }
 .bi-youtube{
     color: red;
-}
-.social:hover{
-    color: purple;
-    
 }
 .bi-facebook{
     color: blue;
@@ -26,6 +15,45 @@
 .bi-github{
     color: black;
 }
+.insta{
+    color: rgb(87, 2, 87);
+}
 a{
     text-decoration: none;
+}
+/* footer css */
+.logo{
+    border-radius: 7px;
+}
+.f_logo{
+    color: white;
+    text-decoration: none;
+}
+.f_logo:hover{
+    color: rgb(252, 187, 47);
+    text-decoration: none;
+}
+.q_links{
+    color: white;
+    
+}
+.q_links:hover{
+    color: rgb(252, 187, 47);
+}
+.Copyright{
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+h4:hover{
+    transform: scale(1.1);
+    transition: ;
+    text-shadow: 2px 2px 3px grey;
+}
+header {
+position: sticky;
+top: 0;
+z-index: 1000;
 }
