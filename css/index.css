@@ -65,8 +65,7 @@ z-index: 1000;
 .align{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 .styl:hover{
     transform: scale(1.2);
@@ -81,8 +80,11 @@ z-index: 1000;
     border: 2px solid green;
 }
 .sty3{
+    box-shadow: 5px 5px 7px gray;
     border-radius: 15px;
 }
+
+
 
 
 
